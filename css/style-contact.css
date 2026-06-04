@@ -346,6 +346,10 @@ textarea {
     resize: vertical;
 }
 
+textarea::placeholder {
+    color: black;
+}
+
 .check {
     vertical-align: middle;
     appearance: none;
