@@ -249,6 +249,7 @@ form {
 }
 
 form input {
+    color: black;
     border: .5px solid #FCE01B;
     font-size: 16px;
     height: 36px;
@@ -305,7 +306,7 @@ input:-webkit-autofill {
 
 #state {
     border: .5px solid #FCE01B;
-    color: rgba(0,0,0,.5);
+    color: black;
     font-size: 16px;
     height: 40px;
     padding-left: 13px;
@@ -485,6 +486,16 @@ h4 {
     color: white;
     font-size: 20px;
     transform: translateY(5%);
+}
+
+.input-email:is(:hover, :focus) {
+    border: 1.5px solid #FCE01B;
+    font-weight: 700;
+}
+
+.input-email:-webkit-autofill {
+    -webkit-text-fill-color: white;
+    transition: background-color 5000s ease-in-out 0s;
 }
 
 #click-submit {
