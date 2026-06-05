@@ -939,6 +939,7 @@ hr {
 .text3 {
     grid-area: top;
     align-content: center;
+    margin: 0 5%;
 }
 
 .title-image3 {
@@ -963,33 +964,53 @@ hr {
 }
 
 @media screen and (max-width: 700px) {
-  .box3 {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-        "bottom"
-        "top";
-    gap: 0rem;
-    margin: 7rem 3rem;
-  }
-  #title-image3 {
-        display: none;
-  }
-  .title3-mobile, .image3-mobile {
-        display: block;
+    .box3 {
+      grid-template-columns: 1fr;
+      grid-template-areas:
+          "bottom"
+          "top";
+      gap: 0rem;
+      margin: 7rem 3rem;
     }
-    .title-image3 {
-        width: 100%;
-        margin: 0px 30px;
-        display: flex;
-        place-self: center;
-        place-content: center;
-        gap: 25%;
+    #title-image3 {
+          display: none;
     }
-}
+    .title3-mobile, .image3-mobile {
+          display: block;
+      }
+      .title-image3 {
+          width: 100%;
+          margin: 0px 30px;
+          display: flex;
+          place-self: center;
+          place-content: center;
+          gap: 25%;
+      }
+  }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
     .title-image3 {
-        gap: 0;
+    position: relative;
+  }
+    .image3-mobile {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        margin-left: -15px;
+    }
+    .title3-mobile {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 1;
+        margin-right: -15px;
+    }
+    .title-image3 {
+        width: 90%;
+    }
+    .text3{
+        margin-top: 130%;
     }
 }
 
