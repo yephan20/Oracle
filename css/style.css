@@ -1,13 +1,12 @@
 html, body {
     overflow-x: hidden;
-    overscroll-behavior: none;
-  }
+}
   
-  input {
+input {
     -webkit-appearance: none;
     appearance: none;
     transform: perspective(1px);
-  }
+}
   
 body {
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
