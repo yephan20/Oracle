@@ -423,17 +423,18 @@ footer {
         visibility: hidden;
     }
     .bottom-navigation {
-          flex-direction: column;
-          gap: 1em;
-          align-items: center;
+        width: 90%;
+        flex-direction: column;
+        gap: 1em;
+        align-items: center;
     }
     .bottom-nav-line-1 {
-        margin-left: 50px;
+        margin-left: -5%;
     }
     .bottom-nav-line-2 {
-        margin-left: -35px;
+        margin-left: -10%;
     }
     .bottom-nav-line-1, .bottom-nav-line-2 {
-        gap: 2em;
+        gap: 1em;
     }
 }
