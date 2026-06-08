@@ -98,6 +98,7 @@ a:hover {
     z-index: 9;
     top: 0;
     right: 0;
+    border-bottom-left-radius: 40px;
 }
 
 .navigation ul {
@@ -160,6 +161,7 @@ a:hover {
     height: 5px;
     margin: 6px auto;
     transition: transform 500ms ease-in-out;
+    border-radius: 10px;
 }
 
 #hamburger.animate .bar1 {

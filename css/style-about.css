@@ -96,6 +96,7 @@ a:hover {
     z-index: 9;
     top: 0;
     right: 0;
+    border-bottom-left-radius: 40px;
 }
 
 .navigation ul {
@@ -158,6 +159,7 @@ a:hover {
     height: 5px;
     margin: 6px auto;
     transition: transform 500ms ease-in-out;
+    border-radius: 10px;
 }
 
 #hamburger.animate .bar1 {
@@ -255,11 +257,13 @@ video {
     filter: drop-shadow(5px 5px 15px rgb(0,0,0,.3));
     width: 75%;
     max-width: 1172px;
+    border-radius: 40px;
 }
 
 @media screen and (max-width: 1600px) {
     video {
         width: 90%;
+        border-radius: 20px;
     }
 }
 
@@ -296,6 +300,7 @@ h2 {
     height: 675px;
     aspect-ratio: 1 / 1;
     grid-area: top;
+    border-radius: 40px;
 }
 
 .content1 {
@@ -307,6 +312,7 @@ h2 {
     z-index: 3;
     padding: 1rem 3rem 2rem 3rem;
     grid-area: bottom;
+    border-radius: 40px;
 }
 
 h4 {
@@ -374,6 +380,7 @@ h4 {
     max-width: 1172px;
     height: 550px;
     position: relative;
+    border-radius: 50px;
 }
 
 .image2 {

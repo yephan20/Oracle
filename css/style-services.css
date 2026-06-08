@@ -96,6 +96,7 @@ a:hover {
     z-index: 9;
     top: 0;
     right: 0;
+    border-bottom-left-radius: 40px;
 }
 
 .navigation ul {
@@ -146,6 +147,7 @@ a:hover {
     height: 5px;
     margin: 6px auto;
     transition: transform 500ms ease-in-out;
+    border-radius: 10px;
 }
 
 #hamburger.animate .bar1 {
@@ -246,6 +248,7 @@ a:hover {
     display: flex;
     place-items: center;
     padding-left: 3rem;
+    border-radius: 40px;
 }
 
 .yellow-gradient1 {
@@ -256,6 +259,7 @@ a:hover {
     right: 0;
     top: 0;
     z-index: -1;
+    border-top-right-radius: 40px;
 }
 
 .box1 {
@@ -289,6 +293,11 @@ h2 {
 .image1 {
     justify-self: end;
     grid-area: bottom;
+}
+
+.image1 img {
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
 }
 
 .image-mobile {
@@ -357,21 +366,28 @@ h2 {
     filter: drop-shadow(5px 5px 15px rgb(0,0,0,.3));
     position: relative;
     place-content: center;
+    border-radius: 40px;
 }
 
 .yellow-gradient2 {
-        background-image: linear-gradient(rgba(252,224,27,.6), rgba(252,224,27,0));
-        height: 50%;
-        width: 100%;
-        position: absolute;
-        left: 0;
-        top: 0;
-        z-index: -1;
+    background-image: linear-gradient(rgba(252,224,27,.6), rgba(252,224,27,0));
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    border-radius: 40px;
 }
 
 .content2, .content3 {
     padding: 0 3rem;
     z-index: 1;
+}
+
+.image2 img {
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
 }
 
 .image3 {
@@ -386,6 +402,12 @@ h2 {
     right: 0;
     bottom: 0;
     z-index: -1;
+    border-radius: 40px;
+}
+
+.image3 img {
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -399,6 +421,12 @@ h2 {
     .yellow-gradient2, .yellow-gradient3 {
         height: 75%;
         width: 57%;
+    }
+    .yellow-gradient2 {
+        border-top-right-radius: 0;
+    }
+    .yellow-gradient3 {
+        border-bottom-left-radius: 0;
     }
     .content2 {
         place-items: end;
@@ -455,6 +483,7 @@ h2 {
     position: absolute;
     top: 0;
     left: 0;
+    border-radius: 40px;
 }
 
 .box4 {
@@ -470,6 +499,11 @@ h2 {
 
 .content4 {
     padding-left: 3rem;
+}
+
+.image4 img {
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
 }
 
 .box5 {
@@ -488,11 +522,17 @@ h2 {
     position: absolute;
     top: 0;
     right: 0;
+    border-radius: 40px;
 }
 
 .image5 {
     grid-area: bottom;
     justify-self: end;
+}
+
+.image5 img {
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
 }
 
 .content5 {
