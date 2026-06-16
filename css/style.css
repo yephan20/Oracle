@@ -98,6 +98,7 @@ a:hover {
     z-index: 9;
     top: 0;
     right: 0;
+    border-bottom-left-radius: 40px;
 }
 
 .navigation ul {
@@ -148,6 +149,7 @@ a:hover {
     height: 5px;
     margin: 6px auto;
     transition: transform 500ms ease-in-out;
+    border-radius: 10px;
 }
 
 #hamburger.animate .bar1 {
@@ -295,6 +297,7 @@ a:hover {
     }
     .title-image {
         margin: 0px 0px 0px 10px;
+        padding: 25%;
     }
 }
 
@@ -994,7 +997,6 @@ hr {
           display: flex;
           place-self: center;
           place-content: center;
-          gap: 25%;
       }
   }
 
@@ -1020,7 +1022,7 @@ hr {
         width: 90%;
     }
     .text3{
-        margin-top: 130%;
+        margin-top: 120%;
     }
 }
 
