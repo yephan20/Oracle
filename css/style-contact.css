@@ -262,7 +262,7 @@ form {
 
 form input {
     color: black;
-    border: .5px solid #FCE01B;
+    border: 1px solid #FCE01B;
     font-size: 16px;
     height: 36px;
     padding-left: 13px;
