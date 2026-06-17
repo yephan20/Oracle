@@ -481,7 +481,7 @@ hr {
 }
 
 .input-email {
-    border: .5px solid #FCE01B;
+    border: 1px solid #FCE01B;
     width: 80%;
     height: 46px;
     padding-left: 13px;
