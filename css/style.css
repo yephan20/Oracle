@@ -301,6 +301,19 @@ a:hover {
     }
 }
 
+@media screen and (max-width: 400px) {
+    .title-image {
+        margin: 0px 0px 0px 10px;
+        padding: 10%;
+    }
+    .title1-mobile {
+        margin-left: -35px;
+    }
+    .image1-mobile {
+        margin-right: -10px;
+    }
+}
+
 .what-we-love-to-do {
     padding-left: 25px;
     display: flex;
@@ -1022,7 +1035,7 @@ hr {
         width: 90%;
     }
     .text3{
-        margin-top: 120%;
+        margin-top: 110%;
     }
 }
 
@@ -1083,6 +1096,15 @@ h4 {
     background-color: rgba(252, 224, 27, .0);
     color: black;
     border: 2px solid black;
+}
+
+@media screen and (max-width: 400px) {
+    .input-email {
+        width: 220px;
+    }
+    .cta-submit {
+        width: 240px;
+    }
 }
 
 #email-confirmation {
